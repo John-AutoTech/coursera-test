@@ -1,27 +1,27 @@
+body {
 
+    div > p {
+        text-align: justify;
+    }
 
-div > p {
-	text-align: justify;
+    .content-cell {
+        background-color: #BBDDBB;
+        margin-bottom: 15px;
+        padding: 10px 15px;
+    }
+
+    .content-cell h2 {
+        margin-top: -5px;
+    }
 }
-
-.content-cell {
-	background-color: #BBDDBB;
-	margin-bottom: 15px;
-	padding: 10px 15px;
-}
-
-.content-cell h2 {
-	margin-top: -5px;
-}
-
-/* Not XS screen */
+/********** Medium and over devices **********/
 @media (min-width:768px){
 	#collapsable-nav {
 		visibility: hidden;
 	}
 }
 
-/* XS screen */
+/********** Extra-small devices **********/
 @media (max-width:767px){
 	
 	.navbar-brand {
