@@ -1,100 +1,54 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  background-color: white;
-  font-family: Helvetica, Arial, sans-serif;
-}
-.row {
-  marging-top: 0%;
-  marging-bottom: 0%;
-}
-h1 {
-  text-align: center;
-  margin: 20px;
-  font-size: 175%;
+
+
+div > p {
+	text-align: justify;
 }
 
-section {  
-  clear: margin;
-  padding: 15px;
-  position: relative;
-  }  
-div {
-  position: relative;
-  background-color: gray;
-  border: 1px solid black;
-  width: auto;
-}
-.content {
-  padding: 5px;
-  border: none;
-  background-color: gray;
-  font-family: Helvetica, Arial, sans-serif;
-  color: black;
-  margin: 0px;
-  height: 150px;
-  overflow: auto;
-  clear: right;
+.content-cell {
+	background-color: #BBDDBB;
+	margin-bottom: 15px;
+	padding: 10px 15px;
 }
 
-.food1{
-  float: right;
-  width: 100px;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0px;
-  text-align: center;
-  font-size: 125%;
-  background-color: pink;
-}
-.food2{
-  float: right;
-  color: white;
-  width: 100px;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0px;
-  text-align: center;
-  font-size: 125%;
-  background-color: red;
-}
-.food3{
-  float: right;
-  width: 100px;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0px;
-  text-align: center;
-  font-size: 125%;
-  background-color: yellow;
- }
-
-/********** Large devices **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
+.content-cell h2 {
+	margin-top: -5px;
 }
 
-/********** Medium devices **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
-    float: left;
-    width: 50%;
-    }
-  .col-md-12 {
-    float: left;
-    width: 100%;
-  }
+/* Not XS screen */
+@media (min-width:768px){
+	#collapsable-nav {
+		visibility: hidden;
+	}
 }
 
-/********** Small devices **********/
-@media (max-width: 767px) {
-  .col-sm-12 {
-    float: left;
-    width: 100%;
-  }
+/* XS screen */
+@media (max-width:767px){
+	
+	.navbar-brand {
+		margin-left: 15px;
+	}
+	
+	.content-cell {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	#collapsable-nav {
+		background-color: #BBEABB;
+	}
+	
+	#nav-list {		
+		margin-bottom: 1px;
+		margin-top: 0px;
+	}
+	
+	#nav-list li{
+		text-align: center;
+		border: 1px solid #559955;
+		margin-bottom:-1px;
+	}
+	#nav-list li:hover{
+		font-weight: bold;
+		background-color: #BBDDBB;
+	}
 }
-
