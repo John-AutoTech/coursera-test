@@ -1,10 +1,4 @@
-# coursera-test
-Coursera test repository
-
-Coursera course: HTML, CSS, and Javascript for Web Developers, Module 2 Coding Assignment, completed.
-
-link: https://github.com/John-AutoTech/coursera-test
-
+Link:  https://john-autotech.github.io/coursera-test_Module3-Solution/
 # Module 3 Coding Assignment
 
 Coursera course: [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
